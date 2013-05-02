@@ -143,7 +143,7 @@ register.tag(selectable)
 @register.simple_tag
 def custom_admin_media_prefix():
     import django
-    if "1.4" in django.get_version():
+    if django.get_version() >= 1.4:
         from django.conf import settings
         return "".join([settings.STATIC_URL,"admin/"])
     else:
