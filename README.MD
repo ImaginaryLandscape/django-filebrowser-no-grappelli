@@ -5,7 +5,7 @@ Additionally, not the prettiest solution but a dummy Browse model and modelAdmin
 
 Installation
 
-1. pip install -e git@github.com:ImaginaryLandscape/django-filebrowser-no-grappelli.git
+1. pip install -e git+git@github.com:ImaginaryLandscape/django-filebrowser-no-grappelli.git#egg=filebrowser-no-grappelli
 
 2. Add 'filebrowser' to your INSTALLED_APPS
 
