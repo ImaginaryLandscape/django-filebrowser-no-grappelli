@@ -1,5 +1,4 @@
 from django.contrib import admin
-from django.conf.urls.defaults import *
 from filebrowser import models
 
 class BrowseAdmin(admin.ModelAdmin):

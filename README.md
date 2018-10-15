@@ -1,6 +1,6 @@
-This version of filebrowser-no-grappelli has been modified by Imaginary Landscape to work with Django 1.5. References to the appmedia template tag have been removed and url template tags have been changed to add quotes around view names. 
+This version of filebrowser-no-grappelli has been modified by Imaginary Landscape to work with Django 1.11.
 
-Additionally, not the prettiest solution but a dummy Browse model and modelAdmin has been added in order to get Filebrowser to appear in the django admin index without overriding templates.
+Not the prettiest solution but a dummy Browse model and modelAdmin has been added in order to get Filebrowser to appear in the django admin index without overriding templates.
 
 
 Installation
